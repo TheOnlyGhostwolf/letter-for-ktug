@@ -76,10 +76,14 @@ a:hover {
 
 @font-face {
     font-family: 'League-Spartan';
-    src:url('.assets/fonts/League-Spartan-Regular.ttf.woff') format('woff'),
-        url('.assets/fonts/League-Spartan-Regular.ttf.svg#League-Spartan-Regular') format('svg'),
-        url('.assets/fonts/League-Spartan-Regular.ttf.eot'),
-        url('.assets/fonts/League-Spartan-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
+    src: url('LeagueSpartan-Bold.eot');
+    src: local('League Spartan Regular'), local('LeagueSpartan-Bold'),
+        url('LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'),
+        url('LeagueSpartan-Bold.woff2') format('woff2'),
+        url('LeagueSpartan-Bold.woff') format('woff'),
+        url('LeagueSpartan-Bold.ttf') format('truetype'),
+        url('LeagueSpartan-Bold.svg#LeagueSpartan-Bold') format('svg');
+    font-weight: bold;
     font-style: normal;
-} /*Mano megstamiausias sriftas :) */
+}
+
