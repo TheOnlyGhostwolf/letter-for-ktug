@@ -73,3 +73,13 @@ a:hover {
 	color: #0f0f0f;
 	background-color: #d1d1d1;
 }
+
+@font-face {
+    font-family: 'League-Spartan';
+    src:url('.assets/fonts/League-Spartan-Regular.ttf.woff') format('woff'),
+        url('.assets/fonts/League-Spartan-Regular.ttf.svg#League-Spartan-Regular') format('svg'),
+        url('.assets/fonts/League-Spartan-Regular.ttf.eot'),
+        url('.assets/fonts/League-Spartan-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+} /*Mano megstamiausias sriftas :) */
